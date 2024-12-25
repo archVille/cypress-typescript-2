@@ -11,8 +11,12 @@
 
 ## How to run this project?
 
-1. Run npm install.
+1. Run npm install
 ````
 npm i
 ````
 2. npm run start
+
+## Run cypress tests
+
+> npx cypress open

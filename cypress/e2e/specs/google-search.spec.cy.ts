@@ -6,6 +6,8 @@ describe('Google Navigation', () => {
     it('Google Search',() => {
         cy.visit('https://www.google.com');
 
+        cy.get('#L2AGLb').click();
+
         search.googleSearch().type('Something');
         search.googleSearchBtn().click({ force: true });
         search.searchResults().should('be.visible');

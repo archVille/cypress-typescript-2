@@ -8,6 +8,6 @@ export class GoogleSearch{
      return cy.get('input[name="btnK"]').first();
      }
      searchResults(){
-         return cy.get('h3').first();
+         return cy.get('h1').first();
      }
   }
