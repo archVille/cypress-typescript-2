@@ -20,3 +20,4 @@ npm i
 ## Run cypress tests
 
 > npx cypress open
+ 
